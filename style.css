@@ -1,0 +1,103 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+
+  button {
+
+    color: #000000;
+  }
+  
+  #imgMoedas {
+    margin-top: 10%;
+  }
+
+  #escreverTexto{
+    height: 30px;
+    width: 150px;
+    border: 0.5px solid black;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
+
+  #listaSelecao{
+    height: 33px;
+    width: 150px;
+    border: 0.5px solid black;
+    font-weight: bold;
+  }
+
+  #enviar{
+    height: 33px;
+    width: 150px;
+    border: 0.5px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+  }
+
+  #enviar:hover{
+    color: white;
+    background-color: green;
+    height: 35px;
+    width: 153px;
+    cursor: grabbing;
+  }
+
+  #resultado{
+    font-family: "Roboto Mono", monospace;
+    -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #cotacaoAtual{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  
+
+
+
+  

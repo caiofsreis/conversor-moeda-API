@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="shortcut icon" href="./moeda.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png" id="imgMoedas">
+      </div>
+        <input type="number" placeholder="Insira o valor em real" id="escreverTexto"> </input>
+        <select name="select" id="listaSelecao">
+          <option value="bitcoin">Bitcoin</option>
+          <option value="dol">Dólar Americano</option>
+          <option value="euro">Euro</option>
+        </select>
+        <button onclick="enviarDados()" id="enviar"> Enviar </button>
+        <p id="cotacaoAtual"></p>
+        <h3 id="resultado"> </h3>
+
+      </a>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
+
